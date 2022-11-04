@@ -1,0 +1,22 @@
+:root{
+    --blue: #99f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-main{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bolder;
+    background: var(--blue);
+    padding: 5px;
+    border-radius: 10px;
+}
+.logo span{
+    color: white;
+}
